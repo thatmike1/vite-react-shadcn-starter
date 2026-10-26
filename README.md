@@ -26,16 +26,18 @@ Opinionated starter template for building apps with Vite, React, and shadcn/ui.
 
 ## Getting Started
 
+Install [pnpm 12.15.0](https://pnpm.io/installation) before following these steps.
+
 ```bash
 # clone
 git clone https://github.com/thatmike1/vite-react-shadcn-starter.git my-app
 cd my-app
 
 # install
-npm install
+pnpm install
 
 # run
-npm run dev
+pnpm dev
 ```
 
 ## Project Structure
@@ -53,7 +55,7 @@ src/
 ## Adding shadcn/ui Components
 
 ```bash
-npx shadcn@latest add [component-name]
+pnpm dlx shadcn@latest add [component-name]
 ```
 
 ## Conventions
